@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import {foo} from 'invalid-pkg'
+
+console.log(foo)
